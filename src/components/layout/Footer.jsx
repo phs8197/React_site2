@@ -10,89 +10,84 @@ function Footer(props) {
       <div className={`footer__inner ${props.attr[2]}`}>
         <div className="footer__menu">
           <div>
-            <h3>사이트</h3>
+            <h3>해외여행</h3>
             <ul>
               <li>
-                <a href="/">웹표준 사이트</a>
+                <a href="/">동남아/대만/서남아</a>
               </li>
               <li>
-                <a href="/">반응형 사이트</a>
+                <a href="/">괌/사이판/호주</a>
               </li>
               <li>
-                <a href="/">패럴랙스 사이트</a>
+                <a href="/">유럽/아프리카</a>
               </li>
               <li>
-                <a href="/">포트폴리오 사이트</a>
+                <a href="/">미주/중남미/하와이</a>
+              </li>
+              <li>
+                <a href="/">일본/중국/홍콩</a>
               </li>
             </ul>
           </div>
           <div>
-            <h3>헤더 유형</h3>
+            <h3>국내여행</h3>
             <ul>
               <li>
-                <a href="/">헤더 유형01</a>
+                <a href="/">제주/국내여행</a>
               </li>
               <li>
-                <a href="/">헤더 유형02</a>
+                <a href="/">제주도 렌터카</a>
+              </li>
+              <li>
+                <a href="/">단독 여행문의</a>
               </li>
             </ul>
           </div>
           <div>
-            <h3>슬라이드 유형</h3>
+            <h3>항공/숙박</h3>
             <ul>
               <li>
-                <a href="/">슬라이드 유형01</a>
+                <a href="/">항공권</a>
               </li>
               <li>
-                <a href="/">슬라이드 유형01</a>
+                <a href="/">숙박</a>
+              </li>
+              <li>
+                <a href="/">최저가 검색</a>
+              </li>
+              <li>
+                <a href="/">최저 특가</a>
               </li>
             </ul>
           </div>
           <div>
-            <h3>이미지 유형</h3>
+            <h3>투어/입장권</h3>
             <ul>
               <li>
-                <a href="/">이미지 유형01</a>
+                <a href="/">국내</a>
               </li>
               <li>
-                <a href="/">이미지 유형02</a>
+                <a href="/">동남아/중국/일본</a>
               </li>
               <li>
-                <a href="/">이미지/텍스트 유형01</a>
+                <a href="/">유럽/중동</a>
               </li>
               <li>
-                <a href="/">이미지/텍스트 유형01</a>
-              </li>
-              <li>
-                <a href="/">텍스트 유형01</a>
+                <a href="/">미주</a>
               </li>
             </ul>
           </div>
           <div>
-            <h3>카드 유형</h3>
+            <h3>허니문/골프</h3>
             <ul>
               <li>
-                <a href="/">카드 유형01</a>
+                <a href="/">허니문</a>
               </li>
               <li>
-                <a href="/">카드 유형02</a>
+                <a href="/">골프</a>
               </li>
               <li>
-                <a href="/">카드 유형03</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>푸터 유형</h3>
-            <ul>
-              <li>
-                <a href="/">푸터 메뉴 유형01</a>
-              </li>
-              <li>
-                <a href="/">푸터 컨택트 유형02</a>
-              </li>
-              <li>
-                <a href="/">푸터 이메일 유형03</a>
+                <a href="/">단독 여행문의</a>
               </li>
             </ul>
           </div>

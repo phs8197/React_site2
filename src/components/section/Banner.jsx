@@ -5,14 +5,15 @@ function Banner(props) {
     <section id="bannerType" className={`banner__wrap ${props.fonts}`}>
       <h2 className="blind">배너 영역</h2>
       <div className="banner__inner">
-        <h3 className="title">유튜버 웹보이</h3>
+        <h3 className="title">
+          <em>하나투어</em> 유투브
+        </h3>
         <p className="desc">
-          더 다양한 강의는 유튜브를 통해 제공하고 있습니다.
-          <a href="/" title="유튜브 페이지로 이동">
-            youtube.com/c/Webstoryboy
-          </a>
+          지금 하나투어 유투브를 구독하고,
+          <br />
+          인스타로 인증하면 선착순으로 <em>5% 할인쿠폰</em>을 드립니다!
         </p>
-        <span className="small">배너 유형01</span>
+        <button>구독하기</button>
       </div>
     </section>
   );

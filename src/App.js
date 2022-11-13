@@ -12,16 +12,16 @@ import Text from "./components/section/Text";
 function App() {
   return (
     <>
-      <Header fonts="nexon" />
+      <Header fonts="GmarketSans" />
       <Main>
         <Slider />
-        <Image attr="section nexon container" />
-        <ImgText attr={["section", "nexon", "container", "gray"]} />
-        <Card attr={["section", "nexon", "container"]} />
+        <Text attr={["section", "GmarketSans", "container"]} />
+        <Card attr={["section", "GmarketSans", "container"]} />
+        <Image attr={["section", "GmarketSans", "container"]} />
         <Banner fonts="gmarket" />
-        <Text attr={["section", "nexon", "container"]} />
+        <ImgText attr={["section", "GmarketSans", "container"]} />
       </Main>
-      <Footer attr={["section", "nexon", "container", "gray"]} />
+      <Footer attr={["section", "GmarketSans", "container", "gray"]} />
     </>
   );
 }

@@ -5,26 +5,26 @@ function Header(props) {
     <header id="headerType" className="props.fonts">
       <div className="header__inner">
         <div className="header__logo">
-          <a href="/">
-            web <em>site</em>
+          <a href="#top">
+            <img src="assets/img/logo.jpg" alt="웹사이트 로고" />
           </a>
         </div>
         <nav className="header__menu">
           <ul>
             <li>
-              <a href="#imageType">이미지 영역</a>
+              <a href="#imageType">해외여행</a>
             </li>
             <li>
-              <a href="#imgTextType">텍스트 영역</a>
+              <a href="#imgTextType">국내여행</a>
             </li>
             <li>
-              <a href="#cardType">배너 영역</a>
+              <a href="#cardType">항공/숙박</a>
             </li>
             <li>
-              <a href="#bannerType">컨텐츠 영역</a>
+              <a href="#bannerType">투어/입장권</a>
             </li>
             <li>
-              <a href="#textType">푸터 영역</a>
+              <a href="#textType">허니문/골프</a>
             </li>
           </ul>
         </nav>
