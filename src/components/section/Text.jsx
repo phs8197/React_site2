@@ -9,10 +9,7 @@ function Text(props) {
       <div className={`text__container ${props.attr[2]}`}>
         <div className="text__text">
           <span className="mb70">HANA TOUR</span>
-          <h2 className="mb40">
-            여행 <br />
-            좋아하세요?
-          </h2>
+          <h2 className="mb40">여행 가실래요?</h2>
           <p className="mb70">
             여행이 일상화된 요즘 시대,
             <br />

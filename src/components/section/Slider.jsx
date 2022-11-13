@@ -20,7 +20,6 @@ function Slider() {
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
-        style={{ height: "800px" }}
       >
         <SwiperSlide
           style={{
