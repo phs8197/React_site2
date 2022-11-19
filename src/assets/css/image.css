@@ -41,7 +41,6 @@
 @media (max-width: 960px) {
   .image {
     width: 32.3%;
-    background: #f5f5f5;
   }
   .image:nth-child(4n) {
     display: none;
@@ -53,7 +52,6 @@
 @media (max-width: 600px) {
   .image {
     width: 49%;
-    background: #f5f5f5;
   }
 
   .image:nth-child(3n) {

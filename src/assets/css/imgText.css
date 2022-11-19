@@ -67,18 +67,20 @@
 }
 
 @media (max-width: 960px) {
+  .imgText__inner {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .imgText__inner .imgText {
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  .imgText__inner .imgText:nth-child(3) {
+    display: none;
+  }
   .imgText__wrap {
     overflow-x: scroll;
-  }
-  .imgText__wrap .imgText {
-    width: 100%;
-  }
-  .imgText__body {
-  }
-  .imgText__body p {
-    width: 100%;
-    overflow: hidden;
-    word-break: break-all;
   }
 }
 @media (max-width: 600px) {
