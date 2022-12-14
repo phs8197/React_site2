@@ -92,11 +92,7 @@ function Footer(props) {
             </ul>
           </div>
         </div>
-        <div className="footer__right">
-          2022 Webstoryboy. Portfolio is Power
-          <br />
-          All rights reserved.
-        </div>
+        <div className="footer__right"></div>
       </div>
     </footer>
   );
